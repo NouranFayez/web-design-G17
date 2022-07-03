@@ -1,0 +1,14 @@
+-- html Documentation ==> https://www.w3schools.com/html/default.asp
+                          https://www.tutorialspoint.com/html/index.htm
+
+
+-- block Elements ==> h1 : h6 , p , lists , div 
+-- inline Elements ==> span , a , img , text formatting
+
+-- a tag attributes ==> href = link path
+                        target = _blank , _self (default) , parent
+
+-- img attributes ==> src (image path) , width ==> px , % , height = px , % , alt , title
+
+-- ol attribute ==> type = 1 (default) , A , a , I , i
+-- ul attribute ==> type = disc (default) , square , circle
