@@ -1,0 +1,30 @@
+-- css Methods ==> Internal Sheet
+                   Inline Style
+                   External Sheet
+
+-- css selector ==> tag name 
+                    class Name
+                    id
+                    *
+
+-- periority of css ==> tag ==> class ==> id  ==> inline style
+
+-- css properties : color
+                    background-color
+                    width
+                    padding
+                    margin
+                    border ==> width , style(required) , color
+
+-- Box model ==> margin
+                 padding
+                 border
+                 width
+                 height   
+
+
+-- display ==> block , inline-block , inline  , none                                  
+
+
+
+

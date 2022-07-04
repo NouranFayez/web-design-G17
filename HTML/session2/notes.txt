@@ -1,0 +1,19 @@
+inline Element ==> label , input  , textarea
+block Element ==> form
+
+-- form attributes ==> method (post/get) , autocomplete (off/on)
+-- input Attributes ==> type , value , name , checked , disabled , readonly , 
+                        placeholder , pattern , minLength , maxLength , autocomplete (off/on)
+                        color , range 
+-- input types ==> text , email , password , submit , 
+                   button , radio , date , month , datetime-local , file , tel , url 
+-- input type=radio/checkbox ==> checked 
+-- textarea ==> placeholder , required , value , name , disabled , readonly , rows , cols
+-- select ==> name , disabled  , mulitple
+-- option ==> disabled , selected , value
+-- input type=file ==> muliple
+-- datalist 
+-- fieldset / legend
+
+-- special characters ==>  !@#$%^&*
+

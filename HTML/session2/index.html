@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="post" autocomplete="off" action="success.html">
+        <label for="firstName">First Name</label>
+        <input type="text" name="userFirstName" id="firstName" required> <br>
+        <label>Email</label>
+        <!-- username@domain.subdomain -->
+        <input type="email" name="userEmail" autocomplete="off"> <br>
+        <input type="password" placeholder="enter Your Password" name="userPassword" autofocus> <br>
+
+        <label>Shipping Area</label>
+        <input type="text" value="Alex" name="shippingArea" disabled> <br>
+
+        <input type="text" value="test" name="userTest" readonly> <br>
+
+        <label>Gender</label>
+        <input type="radio" name="userGender" value="male" checked> <span>Male</span>
+        <input type="radio" name="userGender" value="female"> <span>Female</span>
+
+        <br>
+        <label>Modules</label> <br>
+        <input type="checkbox" name="module" value="des" checked> <span>Web design</span>
+        <input type="checkbox" name="module" value="dev"> <span>Web develop</span>
+        <input type="checkbox" name="module" value="gra" checked> <span>graphic</span>
+        <input type="checkbox" name="module" value="ccna"> <span>CCNA</span>
+
+        <br>
+        <label>Date Of Birth</label> <br>
+        <input type="date" name="DOB"> <br>
+        <input type="month" name="month"> <br>
+        <input type="datetime-local" name="month"> <br>
+
+        <br>
+        <textarea placeholder="enter your message" rows="5" cols="50"></textarea>
+        <br>
+
+        <!-- <label>Courses</label> -->
+        <select name="course" multiple>
+            <option disabled selected>choose course</option>
+            <option value="0">html</option>
+            <option value="1">css</option>
+            <option value="2">bootstrap</option>
+            <option value="3">JAvascript</option>
+        </select>
+
+        <br>
+        <input type="file" name="cv" multiple>
+
+        <label>Age</label>
+        <input type="number">
+
+        <input type="text" placeholder="enter name"  pattern="[A-Za-z]{3}" title="three letters">
+
+        <br>
+        <input type="tel" id="phone" name="phone"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+        placeholder="enter your phone">
+       <br>
+       <input type="tel" id="phone" name="Mobile"
+       pattern="[0-9]{11}"
+       placeholder="enter your Mobile">
+
+     
+      <input type="text" maxlength="10" minlength="4">
+
+
+
+
+
+        <br>
+        <button type="button">Register</button>
+        <input type="submit" value="Login">
+    </form>
+</body>
+
+</html>
+
