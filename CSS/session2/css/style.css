@@ -35,6 +35,9 @@ a{
 .box-sizing-border{
     box-sizing: border-box;
 }
+.clear{
+    clear: both;
+}
 
 
 /* custom style */
@@ -96,4 +99,19 @@ input{
     background-color: black;
 }
 
+/* contact section style */
+
+#contact-section{
+    padding: 3% 0;
+}
+#contact-section .card{
+    width: 30%;
+    background-color: aqua;
+    padding: 2%;
+    font-size: 18px;
+    box-sizing: border-box;
+    margin-bottom: 2%;
+    float: left;
+    
+}
 
