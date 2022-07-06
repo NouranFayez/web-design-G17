@@ -1,0 +1,89 @@
+/* reset Style */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* global Style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.689);
+    height: 100%;
+}
+.text-white{
+    color: white;
+}
+.tranparent-btn{
+    padding: 1%;
+    font-size: 19px;
+    background-color: transparent;
+    border: solid 5px;
+}
+.d-inline-block{
+    display: inline-block;
+}
+.custom-float{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+
+/* Custom Style */
+
+/* Navbar style */
+nav{
+    background-color: antiquewhite;
+    padding: 1% 0;
+    /* color: red; */
+}
+nav ul {
+    float: right;
+    width: 35%;
+    font-size: 19px;
+    /* color: ; */
+}
+nav ul li {
+    margin-left: 7%;
+}
+nav a {
+    color: black;
+}
+
+
+/* bg image style */
+.bg-img{
+    margin-top: 7%;
+    background-image: url(../images/natural-img.jpg) ;
+    /* height: 700px; */
+        /* background-repeat-x: repeat; */
+    /* background-repeat-y: no-repeat; */
+    background-repeat: no-repeat;
+    background-color: aqua;
+    background-position-x: center;
+    background-position-y: center;
+    background-position: center bottom;
+    background-size: 100% 100%;
+}
+
+.bg-img .container{
+    padding: 10% 0px;
+}
+
+.bg-img h1 , .bg-img h2  {
+    margin-bottom: 5%;
+}
+.bg-img h2 {
+    color: blue;
+}
+
+
