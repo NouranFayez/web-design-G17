@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Dancing Script', cursive;
 }
 a{
     text-decoration: none;
@@ -71,7 +72,7 @@ header{
     padding: 3%;
     font-size: 16px;
     font-weight: bold;
-    font-family: cursive;
+    font-family: 'Quicksand', sans-serif;
     background-color: black;
     color: white;
     border: 3px solid chartreuse;
