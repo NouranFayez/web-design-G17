@@ -1,0 +1,130 @@
+/* Reset style */
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* Global style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+.custom-float{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.text-white{
+    color: white;
+}
+.d-inline-block{
+    display: inline-block;
+}
+.custom-height{
+    height: 700px;
+}
+.bg-light{
+    background-color: lightgray;
+    padding-top: 6%;
+}
+.bg-olive{background-color: lightgreen;}
+.bg-blue{background-color: lightblue;}
+.bg-pink{background-color: lightpink;
+    
+}
+
+
+
+/* header style */
+header{
+    background-color: blue;
+    padding: 3% 0;
+}
+/* Navbar style */
+nav{
+    background-color: antiquewhite;
+    padding: 1% 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    /* color: red; */
+}
+nav ul {
+    float: right;
+    width: 35%;
+    font-size: 19px;
+    /* color: ; */
+}
+nav ul li {
+    margin-left: 7%;
+}
+nav a {
+    color: black;
+}
+
+.top-btn{
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    /* background-color: black; */
+    background: black ;
+    /* top: 14%; */
+    /* left: 11%;*/
+}
+
+
+/* card style */
+.card{
+    width: 30%;
+    background-color: blue;
+    color: white;
+    padding: 2%;
+    font-size: 20px;
+    position: relative;
+}
+.square{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    position: absolute;
+    right: 83%;
+    top: 100%;
+}
+
+.custom-icon{
+    font-size: 40px;
+    font-size: 40px;
+    color: red;
+    /* background: black; */
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border: 3px solid;
+    border-radius: 50%;
+    line-height: 1.8;
+    
+}
+
+
+.custom-card{
+    padding: 3%;
+    width: 25%;
+    background-color: lightgray;
+    margin-top: 3%;
+    /* box-shadow : h-offset  v-offset blur spread color */
+    box-shadow: 0px 0px 19px 3px #bb3131;
+    
+}

@@ -1,0 +1,8 @@
+-- scroll-behaviour ==> smooth
+-- position ==> fixed , sticky , relative , absolute , static(default)
+-- left , top , bottom , right , z-index
+-- line-height
+
+-- fontawesome icons documentation ==> https://fontawesome.com/
+
+-- box-shadow : h-offset  v-offset blur spread color
