@@ -135,6 +135,82 @@ p{
 }
 
 :not(p){
-    color: greenyellow;
+    /* color: greenyellow; */
+}
+
+
+h1::first-letter{
+   color: red;
+   font-size: 40px; 
+}
+
+h2::first-line{
+    color: blue;
+}
+
+::selection{
+    background-color: goldenrod;
+    color: white;
+}
+.custom-input-style::placeholder{
+    color: red;
+}
+
+
+ul{
+    list-style: square;
+}
+li::marker{
+    color: red;
+}
+
+
+.custom-h3{
+    background-color: lightgray;
+    padding: 1%;
+    font-size: 35px;
+}
+.custom-h3::before{
+    content: "Web Design";
+    background: white;
+    margin-right: 1%;
+    color: red;
+    border-right: 2px solid;
+    padding: 1%;
+    width: 30%;
+    height: 100px;
+    display: inline-block;
+}
+
+.custom-h3::after{
+    content: "Javascript";
+    color: red;
+}
+
+.custom-card{
+    width: 50%;
+    margin: 3% auto;
+    background-color: lightgray;
+    padding: 2%;
+}
+.custom-card{
+    position: relative;
+}
+.custom-card::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    display: inline-block;
+    position: absolute;
+    right: 103%;
+}
+
+.custom-icon::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 400;
+    content: "\f007";
+    color: red;
+    font-size: 30px;
 }
 
