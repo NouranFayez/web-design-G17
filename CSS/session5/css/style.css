@@ -1,0 +1,140 @@
+/* Reset Style  */
+*{
+    margin: 0;
+    padding: 0;
+}
+a , ul{
+    font-size: 25px;
+}
+
+
+/* Global Style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/* custom style */
+.card{
+    width: 30%;
+    margin: 3% auto;
+    box-shadow: 0px 0px 8px gray;
+}
+.card img{width: 100%;}
+.card-body{
+    padding: 4%;
+}
+.card h2:hover{
+    color: blue;
+}
+.card:hover p{
+    color: red;
+}
+.card:hover .btn{
+    background-color: aqua;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 1%;
+    margin-top: 2%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: white !important;
+    color: black;
+
+}
+
+.custom-input{
+    padding: 1%;
+    margin-top: 2%;
+    width: 30%;
+    border: 2px solid red;
+    /* border-radius: 5px; */
+    font-size: 20px;
+    color: red;
+    border: 0;
+    border-bottom: 3px solid red;
+}
+
+form{
+    outline: 5px solid black;
+    margin-top: 2%;
+    padding: 2%;
+    border: 7px solid yellow;
+    border-radius: 38px;
+}
+.custom-input:focus{
+    background-color: gainsboro;
+    border-color: blue;
+    outline: 0px;
+}
+
+.custom-input:disabled{
+    background-color: blue;
+}
+.custom-input:required{
+    background-color: brown;
+}
+
+input:checked{
+    width: 50px;
+    height: 50px;
+}
+
+
+a:link{
+    color: chartreuse;
+}
+
+a:visited{
+    color: aqua;
+}
+
+a:hover{
+    color: black;
+}
+
+a:active{
+    color: palevioletred;
+}
+
+#unordered-list li:first-child{
+    color: red;
+}
+
+#unordered-list li:last-child{
+    color: blue;
+}
+#unordered-list li:nth-child(3){
+    color: aqua;
+}
+
+.ordered-list li:nth-child(odd){
+    color: gray;
+}
+.ordered-list li:nth-child(even){
+    color: aqua;
+}
+.ordered-list li:nth-child(even):hover{
+    color: red;
+}
+.ordered-list li:nth-child(odd):hover{
+    color: yellow;
+}
+
+.custom-div p:nth-child(odd){
+    color: red;
+}
+p{
+    color: lightpink;
+}
+
+:not(p){
+    color: greenyellow;
+}
+

@@ -1,0 +1,15 @@
+-- css Selectors ==> pseudo class , pseudo element
+
+-- pseudo class && pseudo Element ==> https://www.w3schools.com/css/css_pseudo_classes.asp
+-- pseudo Class ==> special state of an element
+                  - :hover
+                  - :focuse 
+                  - :checked
+                  - :disabled
+                  - :required
+                  - :last-child
+                  - :first-child
+                  - :nth-child() ==> num , even , odd
+                  - :link
+                  - :visited
+                  - :active
