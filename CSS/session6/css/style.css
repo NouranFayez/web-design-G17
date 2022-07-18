@@ -1,0 +1,158 @@
+/* Reset Style */
+*{
+    margin: 0;
+    padding: 0;
+    /* direction: rtl; */
+
+}
+a{
+    text-decoration: none;
+
+}
+ul{
+    list-style: none;
+}
+
+/* Global Style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/* custom style */
+.card p{
+    color: red;
+    font-size: 25px;
+    margin: 2% 0;
+}
+
+.card > p{
+    background-color: lightgray;
+}
+.card:hover p{
+    color: yellow;
+}
+
+.card.active {
+    border: 2px solid;
+}
+
+.card.active h2{
+    color: blue;
+}
+
+.card + a{
+    font-size: 40px;
+    color: green;
+    font-weight: bold;
+}
+
+.card ~ a{
+    background-color: lightgray;
+    margin: 2%;
+    font-size: 40px;
+}
+
+#custom-a{
+    background-color: olive;
+}
+
+input{
+    margin-top: 3%;
+    font-size: 30px;
+    padding: 5px;
+}
+
+[name]{
+    border: 4px solid red;
+}
+
+[name=email]{
+    background-color:lightblue ;
+}
+
+.register-form input[type=text]{
+    background-color: aqua;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 1%;
+    border-radius: 10px;
+    display: block;
+}
+.btn:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+
+
+h1{
+    color: red;
+    display: none;
+}
+
+
+.btn:hover + h1{
+    display: block;
+}
+
+
+
+/* global flex style */
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+.custom-flex{
+    background: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-evenly;
+    height: 700px;
+}
+
+/* Flex Style  */
+.card-flex{
+    width: 27%;
+    padding: 2%;
+    box-sizing: border-box;
+  
+   
+}
+.bg-light{ background-color: lightgray;}
+.bg-blue{ background-color: lightblue;}
+.bg-pink{ background-color: lightcoral;}
+.align-self-start{align-self: flex-start;}
+
+
+nav ul{
+    width: 40%;
+    background-color: aqua;
+}
+nav h2 {
+    font-size: 40px;
+}
+
+
+
+.left-side{
+    width: 60%;
+    background-color: aqua;
+    height: 400px;
+    margin-bottom: 5%;
+}
+.right-side{
+    width: 35%;
+    background-color: brown;
+}
+

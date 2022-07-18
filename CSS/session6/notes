@@ -1,0 +1,16 @@
+-- css selectors ==> https://www.w3schools.com/cssref/css_selectors.asp
+
+-- direction ==> ltr (left to right) , rtl (right to left)
+
+-- parent ==> display : flex 
+              flex-direction ==> row (default) , row-reverse , column , column-reverse
+              flex-wrap ==>  nowrap (default) , wrap 
+              flex-flow ==> flex-direction flex-wrap
+              justify-content ==> flex-start (default) , flex-end , center , space-between 
+                                  space-around , space-evenly
+              align-items ==> flex-start , flex-end , center   , stretch (default)    
+              align-content ==> flex-start , flex-end , center , space-between
+                                space-around , space-evenly
+
+-- child ==> align-self ==> flex-start , flex-end , center    
+             order ==> -1 , 1, 2, 3                                         
