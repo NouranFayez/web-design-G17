@@ -1,0 +1,47 @@
+-- scrollbar style ==> https://css-tricks.com/the-current-state-of-styling-scrollbars-in-css/
+                       https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
+
+ -- gradient backgrounds ==> https://www.w3schools.com/css/css3_gradients.asp                      
+
+
+-- overflow ==> auto , scroll , hidden , visible (default)
+-- white-space ==> normal (default) , nowrap
+-- text-overflow ==> clip (default) , ellipsis
+
+-- transition-duration ==> time
+-- transition-property ==> css-property , all (default)
+-- transition-timing-function ==> ease (default) : start slow , then fast , end slow
+                              ==> linear : same speed from start to end
+                              ==> ease-in : start slow ..........
+                              ==> ease-out : ......... end slow
+                              ==> ease-in-out : start slow , medium speed , end slow
+                              ==> cubic-bezier() ==> search
+--transition ==> transition-property + transition-duration +transition-timing-function                              
+-- transition-delay ==> time (s/ms)
+
+
+-- background-image ==> linear-gradient(direction , color1 , color2)
+
+-- opacity ==> 0:1
+
+-- filter ==> grayscale(100%) 0 (default)
+              blur(px) 0(default)
+              contrast(%) ==> 100% default 
+              opacity(%) ==> 100% default
+              brightness(num) ==> 1 (default)
+              drop-shadow() ==> search
+
+
+MEAN Stack ==> Mongo 
+               Express
+               Angular
+               Node
+
+MERN Stack ==> Mongo 
+               Express
+               React
+               Node
+
+-- Frontend framework ==> Angular , React , Vue               
+
+
