@@ -1,0 +1,194 @@
+/* Reset Style */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+
+/* Custom Style */
+.transform-card{
+    background-color: red;
+    height: 150px;
+    width: 26%;
+    margin-top: 3%;
+    transition: 1s ;
+    color: white;
+    display: inline-block;
+}
+#bg-olive{
+    background-color: olive;
+    width: 100%;
+}
+#bg-olive:hover{
+    transform: rotate(40deg);
+    transform: scale(2) rotate(50deg);
+}
+.transform-card:hover{
+    transform: translateX(50%);
+    transform: translate(100px , 50px);
+    transform: rotate(-360deg);
+    transform: scaleX(0.5); 
+    transform: scaleY(0.5);
+    transform: scale(1.5 , 0.5);
+    transform:  skewX(30deg);
+    transform:  skewY(-30deg);
+    transform:  skew(40deg , 40deg);
+    /* matrix(scaleX , skewY , SkewX , scaleY , translateX , translateY) */
+    transform: matrix(1.5 , 0 , 0.4 , 1 , 100 , 30 );
+    /* width: 60%; */
+
+}
+
+.card{
+    border: 5px solid ;
+    display: inline-block;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+
+.animation-card{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+
+    /* animation-name: changeBgColor;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-delay:3s; */
+
+    animation: changeBgColor 5s linear 3s infinite alternate;
+    border: 5px solid;
+    margin-top: 2%;
+}
+
+@keyframes changeBgColor{
+    /* from {
+        background-color: lightgray;
+        border: 3px solid;
+    }
+    to {
+        background-color: blue;
+    } */
+
+    0%{
+        background-color: lightblue;
+        
+    }
+    25%{
+        background-color: brown;
+        transform: translateX(400px);
+    }
+    50%{
+        background-color: aqua;
+        transform: translate(400px , 400px) rotate(50deg);
+    }
+    75%{
+        background-color: black;
+        transform: translate(0px , 400px);
+    }
+    100%{
+        background-color: antiquewhite;
+    }
+}
+
+
+.loading-image{
+    width: 20%;
+    margin: 4% auto;
+}
+.loading-image i{
+    transition: 3s;
+    font-size: 40px;
+    animation: loading 1s linear infinite ;
+}
+
+
+.loading-image i:hover{
+    transform: rotate(360deg);
+}
+
+@keyframes loading {
+    to {
+        transform: rotate(360deg);   
+    }
+}
+
+
+i{
+    opacity: 0;
+    font-size: 40px;
+    color: red;
+    animation: iconLoading 3s;
+    
+}
+
+.container{
+    opacity: 1;
+    animation: container 3s;
+}
+
+@keyframes iconLoading {
+    0%{
+        transform: rotate(360deg); 
+          
+    }
+    100%{
+        opacity : 1
+    }
+}
+
+@keyframes container {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.left-aside{
+    width: 60%;
+    background-color: lightgreen;
+    padding: 2%;
+    box-sizing: border-box;
+
+}
+.right-aside{
+    width: 30%;
+    background-color: goldenrod;
+    color: white;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.flex-card{
+    background-color: lightgray;
+    padding: 2%;
+    box-sizing: border-box;
+    border: 2px solid;
+    width: 30%;
+}
+
+
+
+
+
+
+
+

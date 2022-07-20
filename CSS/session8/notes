@@ -1,0 +1,51 @@
+-- transform 2d --
+-- transform ==> translateX(px/%) : postive (right) , negative (left)
+                 translateY(px/%) : postive (bottom) , negative (top)
+                 translate(px/%) : translateX , translateY
+                 rotate(deg) : (+ve , -ve)
+                 scaleX(num) ==> width
+                 scaleY(num) ==> height
+                 scale(num) ==> width , height
+                 skewX(deg) ==> (+ve , -ve)
+                 skewY(deg) ==> (+ve , -ve)
+                 skew(skewX , skewY) ==> (+ve , -ve)
+                 matrix(scaleX , skewY , SkewX , scaleY , translateX , translateY)
+
+-- transform 3d ==> https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d
+
+-- hover css ==> https://ianlunn.github.io/Hover/
+
+-- animation ==> keyframes
+                 animation-name >> keyframes name
+                 animation-duration >> time
+                 animation-iteration-count >> num , infinite
+                 animation-direction >> normal (default) 0% : 100%
+                                        reverse >> 100% : 0%
+                                        alternate >> 0% : 100% >> 100% : 0%
+                                        alternate-reverse >>  100% : 0% >> 0% : 100% 
+                animation-timing-function >> same as transition-timing-function  
+                animation-delay >> time  
+                animation-fill-mode >> search
+
+-- animation: name duration timing-function delay iteration-count direction fill-mode;
+
+-- css variables ==> https://www.w3schools.com/css/css3_variables.asp
+
+
+
+-- media Query ==> @media media type and (condition : breakpoint){}
+
+-- @media ==> css Rule
+-- media type ==> screen ==> smart phones , computer screen , tablet
+                  print 
+                  speech ==> screenreaders
+                  all  ==> media type screen devices
+
+-- condition ==> max-width 
+                 min-width
+                 range
+
+-- breakpoints ==> screen size 
+
+
+

@@ -1,0 +1,43 @@
+
+
+
+
+/* 0px : 575px */
+@media (max-width: 575.98px) { 
+    .left-aside , .right-aside{
+        width: 50%;
+    }
+}
+
+/* 0px : 360px */
+@media (max-width:360px){
+    .left-aside{
+        width: 100%;
+    }
+    .right-aside{
+        width: 100%;
+    }
+    .d-flex{
+        flex-direction: column;
+    }
+}
+
+
+/*  767px : up to */
+@media (min-width:767.98px){
+    .left-aside{
+        background-color: maroon;
+        color: white;
+    }
+}
+
+
+/* 600px :750px */
+@media (min-width:600px) and (max-width:750px){
+        .right-aside{
+            background-color: black;
+        }
+        .hidden{
+            display: none;
+        }
+}
