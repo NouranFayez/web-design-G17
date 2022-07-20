@@ -49,3 +49,21 @@
 
 
 
+-- px , % 
+-- 1em ==> 16px
+-- 1rem ==> responsive em = 16px 
+
+
+-- font-size ==> rem
+-- margin , padding ==> %  , rem 
+-- border ==> px
+-- left , right ==> %
+-- top , bottom ==> % , rem
+-- height ==> rem
+-- line-height ==> num
+-- width ==> % -- circle shape ==> px
+
+
+
+
+
