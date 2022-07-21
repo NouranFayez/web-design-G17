@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+section{
+    height: 1000px;
+}
+
+.card{
+    background-color: lightblue;
+    font-size: 20px;
+    padding: 2%;
+    box-sizing: border-box;
+    width: 30%;
+    margin-top: 3%;
+    display: inline-block;
+}
+.bg-dark{
+    background-color: black;
+    color: white;
+}
