@@ -1,0 +1,13 @@
+.custom-height{
+    height: 500px;
+}
+.carousel-indicators [data-bs-target]{
+    width: 15px !important;
+    height: 15px !important;
+}
+.carousel-indicators{
+    left: auto ;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: maroon !important;
+}
