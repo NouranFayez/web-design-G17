@@ -1,0 +1,6 @@
+.progress-bar{
+    width: 25%;
+}
+.progress-bar:hover{
+    width: 100%;
+}
