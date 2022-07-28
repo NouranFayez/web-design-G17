@@ -1,0 +1,36 @@
+js Documentation ==> https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+-- js ==> camelCase
+-- js ==> case sensitive
+
+-- js Variables DataType ==> string , number , boolean , undefined , null 
+
+--- Operators ==> Mathematical Operator
+                  Assignment Operator
+                  Unary Operator
+                  Comparison Operator
+                  Logical Operator
+                  Ternary Operator
+
+
+-- Mathematical (Arthematic) Operator ==> (+ , - , / , * , ** , % , ++ , --)
+
+--Assignment (Shortcut) Operator ==> += , -= , /= , *= , %=
+
+-- Unary Operator ==> typeof()
+
+-- Comparison Operator ==> (> , < , >= , <= , == , === , != , !==)
+
+-- logical operator ==> (&& , || , !)
+
+-- Ternary Operator ==> (condition) ? true : false
+
+
+-- falsy value ==> 0 , null , undefined , "" , -0 , NaN
+-- truthy Value ==> any other
+
+-- NaN ==> Not a Number
+
+
+
+
