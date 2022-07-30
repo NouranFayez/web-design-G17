@@ -1,0 +1,17 @@
+-- switch case ==> strict comparison (===)
+
+-- looping ==> while , for , foreach
+
+-- break , continue
+
+-- function ==> block of code .. 
+                name
+                parameters/Arguments 
+                return Value
+                call()
+
+
+
+
+-- function looping(startNum , endNum , contNum , breakNum)
+-- check ==> undefined
