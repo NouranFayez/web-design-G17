@@ -8,4 +8,10 @@
               empty array ==> wrong condition 
 
 -- reverse()
--- concat()                             
+-- concat()         
+
+
+
+-- addUser() ==> name , id , balance 
+-- updateUserById() ==> id , NewBalance 
+-- deleteUserById() ==> id 
