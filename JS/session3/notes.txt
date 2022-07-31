@@ -1,0 +1,11 @@
+-- find ==> return the first element match the condition
+            undefined ==> wrong condition
+
+-- findIndex ==> return the first Index match the condition
+                 -1 ==> wrong condition
+
+-- filter ==> return new array 
+              empty array ==> wrong condition 
+
+-- reverse()
+-- concat()                             

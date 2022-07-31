@@ -116,6 +116,7 @@ var l = 20
 
 // console.log( typeof a == "5")
 
+
 // console.log(typeof a)
 
 // console.log(a == 20)

@@ -11,6 +11,19 @@
                 call()
 
 
+-- Array Methods Refrence ==>  https://www.w3schools.com/jsref/jsref_splice.asp
+-- Array Methods ==> push(item/s) ==> add item/s at the end of Array
+                     unshift(item/s) ==> add item/s from the start of array
+                     shift() ==> remove item from the start of array
+                     pop() ==> remove item from the end of array
+                     splice(startIndex , deletedCount , item/s) ==> add items
+                                                                    remove items 
+                                                                    add/remove items
+                     toString() ==> return string of array                                                
+                     join(seperator) ==> return string of array 
+                     includes(item) ==> return boolean type 
+                                                                   
+
 
 
 -- function looping(startNum , endNum , contNum , breakNum)
